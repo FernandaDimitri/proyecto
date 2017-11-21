@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>TEST FRONT END</title>
+        
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+        <link rel="stylesheet" href="css/styles.css">
+        <link rel="stylesheet" href="css/detalleProducto.css">
+              
+    </head>
+    
+    <body>
+        
+        <!--<iframe src="cabeceraBusqueda.html"></iframe>-->
+        
+        <header>
+            <div class="cabeceraBuscador">
+                <div class="logo">
+                    <img src="imagenes/Logo_ML.png">
+                </div>
+                <div class="buscador">
+                    <input class="txtBuscar" type="text" placeholder="Nunca dejes de buscar" id="textoBusqueda">
+                    <button class="btnBuscar" type="button" onclick="buscar()">
+                        <img src="imagenes/ic_Search.png">
+                    </button>
+                </div>
+            </div>
+        </header>
+        
+        <main>
+            <div class="detalleProducto">
+                <div class="producto">
+                    <div class="seccionPrincipal">
+                        <div class="imagenProducto">
+                            <img id="img">
+                        </div>
+
+                        <div class="datosPrincipales">
+                            <h4 id="title"></h4>
+                            <h2 id="amount"></h2>
+                            <button class="btnComprar" onclick="comprar()">Comprar</button>
+                        </div>
+                    </div>
+                    <div class="descripcionProducto">
+                        <p class="descripcionTitulo">Descripción del producto</p>
+                        <p class="descripcion" id="descripcion"></p>
+                    </div>
+                </div>
+            </div>
+            
+        </main>
+        
+        <script src="js/script.js"></script>
+        <script src="js/detalleProducto.js"></script>
+    </body>
+</html>

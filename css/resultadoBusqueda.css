@@ -1,0 +1,38 @@
+.resultadoBusqueda{
+    padding: 20px;
+}
+
+.productoBusqueda{
+    background-color: #FFF;
+    padding: 10px;
+    border: 1px solid #ddd;
+    overflow: auto;
+}
+
+.imagenProducto{
+    float: left;
+    margin-right: 10px;
+}
+
+.precio{
+    margin: 0;
+}
+
+.titulo{
+    margin: 0;
+}
+
+.address{
+    float: right;
+}
+
+.state, .city{
+    font-size: 10px;
+    float: left;
+    color: #aaa;
+}
+
+.state{
+    font-weight: bold;
+    margin-right: 5px;
+}

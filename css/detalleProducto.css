@@ -1,0 +1,47 @@
+.detalleProducto{
+    padding: 20px;
+}
+
+.producto{
+    background-color: #FFF;
+    padding: 10px;
+}
+
+.seccionPrincipal{
+    overflow: auto;
+}
+
+.imagenProducto{
+    float: left;
+}
+
+.imagenProducto img{
+    width: 200px;
+}
+
+.datosPrincipales{
+    width: 200px;
+    float: right;
+}
+
+.btnComprar{
+    background-color: #3583FA;
+    padding: 10px;
+    color: #FFF;
+    border-radius: 8px;
+    width: 200px;
+}
+
+.descripcionProducto{
+    clear: both;
+    margin-top: 50px;
+}
+
+.descripcionTitulo{
+    font-size: 18px;
+}
+
+.descripcion{
+    font-size: 13px;
+    color: #bbb;
+}

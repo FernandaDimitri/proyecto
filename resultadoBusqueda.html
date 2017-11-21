@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>TEST FRONT END</title>
+        
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+        <link rel="stylesheet" href="css/styles.css">
+        <link rel="stylesheet" href="css/resultadoBusqueda.css">
+        
+    </head>
+    
+    <body>
+        
+        <!--<iframe src="cabeceraBusqueda.html"></iframe>-->
+        
+        <header>
+            <div class="cabeceraBuscador">
+                <div class="logo">
+                    <img src="imagenes/Logo_ML.png">
+                </div>
+                <div class="buscador">
+                    <input class="txtBuscar" type="text" placeholder="Nunca dejes de buscar" id="textoBusqueda">
+                    <button class="btnBuscar" type="button" onclick="buscar()">
+                        <img src="imagenes/ic_Search.png">
+                    </button>
+                </div>
+            </div>
+        </header>
+        
+        <main>
+            <div class="resultadoBusqueda">
+                <div class="productoBusqueda" id="producto1" onclick="verDetalle(0)">
+                    <div class="address">
+                        <div class="state">
+                            <p id="state1"></p>
+                        </div>
+                        <div class="city">
+                            <p id="city1"></p>
+                        </div>
+                    </div>
+                    <div class="imagenProducto">
+                        <img id="img1">
+                    </div>
+                    <div>
+                        <div>
+                            <h2 class="precio" id="amount1"></h2>
+                        </div>
+                        <div>
+                            <p class="titulo" id="title1"></p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="productoBusqueda" onclick="verDetalle(1)">
+                    <div class="address">
+                        <div class="state">
+                            <p id="state2"></p>
+                        </div>
+                        <div class="city">
+                            <p id="city2"></p>
+                        </div>
+                    </div>
+                    <div class="imagenProducto">
+                        <img id="img2">
+                    </div>
+                    <div>
+                        <div>
+                            <h2 class="precio" id="amount2"></h2>
+                        </div>
+                        <div>
+                            <p class="titulo" id="title2"></p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="productoBusqueda" onclick="verDetalle(2)">
+                    <div class="address">
+                        <div class="state">
+                            <p id="state3"></p>
+                        </div>
+                        <div class="city">
+                            <p id="city3"></p>
+                        </div>
+                    </div>
+                    <div class="imagenProducto">
+                        <img id="img3">
+                    </div>
+                    <div>
+                        <div>
+                            <h2 class="precio" id="amount3"></h2>
+                        </div>
+                        <div>
+                            <p class="titulo" id="title3"></p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="productoBusqueda" onclick="verDetalle(3)">
+                    <div class="address">
+                        <div class="state">
+                            <p id="state4"></p>
+                        </div>
+                        <div class="city">
+                            <p id="city4"></p>
+                        </div>
+                    </div>
+                    <div class="imagenProducto">
+                        <img id="img4">
+                    </div>
+                    <div>
+                        <div>
+                            <h2 class="precio" id="amount4"></h2>
+                        </div>
+                        <div>
+                            <p class="titulo" id="title4"></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+        
+        
+        
+        <script src="js/script.js"></script>
+        <script src="js/resultadoBusqueda.js"></script>
+        
+    </body>
+</html>
+

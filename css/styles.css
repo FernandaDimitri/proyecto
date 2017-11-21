@@ -1,0 +1,38 @@
+html, body{
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    background-color: #EEE;
+    font-family: "Arial", "Sans Serif";
+}
+
+.cabeceraBuscador{
+    background-color: #FEE600;
+    padding: 10px 10px 10px 60px;
+    overflow: auto;
+}
+
+.logo{
+    float: left;
+    margin-right: 10px;
+}
+
+.buscador{
+    margin-top: 5px;
+}
+
+.txtBuscar{
+    padding: 4px;
+    position: relative;
+    width: 70%;
+}
+
+.btnBuscar{
+    position: absolute;
+}
+
+iframe{
+    width: 100%;
+}
